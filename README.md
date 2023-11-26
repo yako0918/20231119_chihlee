@@ -13,5 +13,10 @@ improved succotash
 2023_09_11_上午 https://www.youtube.com/watch?v=d4kCf4p2T6E
 2023_09_11_下午 https://youtube.com/live/pVvPs_qJhNY
 
+強制更新指令
 git config --global --add pull.rebase true
 
+Python 教學
+https://docs.python.org/zh-tw/3/tutorial/index.html
+
+https://github.com/micropython/micropython
