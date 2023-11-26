@@ -20,3 +20,7 @@ Python 教學
 https://docs.python.org/zh-tw/3/tutorial/index.html
 
 https://github.com/micropython/micropython
+
+使用 Python 套件索引查找、安裝和發布 Python 套件
+https://pypi.org/
+
