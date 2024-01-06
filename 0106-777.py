@@ -8,7 +8,7 @@ def connect():
     # enable station interface and connect to WiFi access point
     nic = network.WLAN(network.STA_IF)
     nic.active(True)
-    nic.connect('k51S_yako','0911767035')
+    nic.connect('LG-yako', '0911767035')
 
     max_wait = 10
 
