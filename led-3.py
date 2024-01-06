@@ -1,9 +1,6 @@
-from machine import Timer
-
-def callback1(t):
-    print(1)
-def callback2(t):
-    print(22)
+import time
+from machine import Pin
+led = Pin("LED", Pin.OUT)
 
 #    
 #time1= timer(mode=Timer.PERIODIC, freq=1000, callback=mycallback)

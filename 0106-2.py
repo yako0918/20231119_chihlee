@@ -19,13 +19,14 @@ while max_wait > 0:
     if status < 0 or status >= 3:
         break
     max_wait -= 1
-    print("等待連線")
+    print("等待連線.........")
     time.sleep(1)
 
 #處理錯誤
 if wlan.status() != 3:
-    raise RuntimeError('連線失敗')
-    #pass
+    #raise RuntimeError('連線失敗')
+    print('連線 失敗')
+    pass
 else:
     print('連線成功')
     status = wlan.ifconfig()
