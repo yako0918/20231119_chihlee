@@ -25,7 +25,7 @@ while max_wait > 0:
 #處理錯誤
 if wlan.status() != 3:
     raise RuntimeError('連線失敗')
-
+    #pass
 else:
     print('連線成功')
     status = wlan.ifconfig()
