@@ -7,7 +7,7 @@ btn = Pin(14,mode=Pin.PULL_DOWN)
 while True:
     print(btn.value())
     
-    if btn.value() ==1:
+    if btn.value() ==1:	#偵測按鈕狀態
         print("按下")
         red_led.value(1)
     else:
