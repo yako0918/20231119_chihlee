@@ -19,10 +19,11 @@ light_value_29 = adc_light_GP29.read_u16()
 def fun10(t:Time):
     #print('1秒ㄌ')
     #print(f"{abc}")
-    print(light_value_26)
+    #print(light_value_26)
+    #print(light_value_27)
+    #print(light_value_28)
+    #print(light_value_29)
     print(light_value_27)
-    print(light_value_28)
-    print(light_value_29)
     print('-------------------------')
     pass
 
