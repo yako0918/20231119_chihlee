@@ -36,7 +36,7 @@ while max_wait >0:#連線時間 10秒
     
 #沒有連線的處理    
 if wlan.status() != 3:
-    raise RuntimeError(  "連線失敗")
+    raise RuntimeError("連線失敗")
     #連線失敗重新開機
     wdt = WDT(timeout=2000)
     wdt.feed()
