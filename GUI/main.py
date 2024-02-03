@@ -15,7 +15,7 @@ st.title("Pico_W_職能發展協會專案")
 st.header("雞舍:red[溫度]和:blue[光線]狀態")
 st.divider()
 
-url =(f 'https://blynk.cloud/external/api/get?token=(os.environ["API_KEY"])')
+url = f 'https://blynk.cloud/external/api/get?token={os.environ["API_KEY"]}&v0&v1'
 
 response = requests.request("GET",url)
 if response.status_code == 200:
