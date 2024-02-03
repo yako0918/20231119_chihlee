@@ -2,5 +2,5 @@ requests
 streamlit
 pandas
 streamlit-autorefresh
-
+python-dotenv
 #安裝載入相關套件及設定
