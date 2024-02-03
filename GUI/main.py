@@ -8,3 +8,4 @@ st.subheader('This is a subheader with a divider', divider='rainbow')
 
 st.subheader('_Streamlit_ is :blue[cool] :sunglasses:')
 st.divider()
+#streamlit run main.py 重啟服務
